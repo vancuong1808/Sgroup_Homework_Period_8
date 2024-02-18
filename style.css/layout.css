@@ -6,16 +6,17 @@ body {
     display: flex;
     flex-flow: column wrap;
     width: 100%;
-    height: 500vh;
+    height: auto;
+    position: relative;
 }
-.footer-gradient{
+.footer-gradient-1{
     position: absolute;
     width: 100%;
     height: 400px;
     background-color: white;
     top: 1280px;
     left: 0px;
-    filter: contrast(100%) brightness(100%) blur( 90px );
+    filter: contrast(100%) brightness(100%) blur( 100px );
     z-index: -1;
 }
 .gradient-background-1 {
@@ -23,7 +24,7 @@ body {
     left: 0px;
     width: 100%;
     height: 1400px;
-    filter: contrast( 90%) brightness(105%);
+    filter: contrast( 90%) brightness(105%) blur( 20px );
     z-index: -1;
 }
 .body-0 {
@@ -118,7 +119,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    width: 1160px;
+    width: 1170px;
     height: 100%;
 }
 .body-3-text {
@@ -201,7 +202,7 @@ body {
 }
 .body-3-img {
     height: 100%;
-    width: 520px;
+    width: 50%;
 }
 .body-3-img img {
     margin-top: 45px;
@@ -222,7 +223,7 @@ body {
 .body-4-div {
     display: flex;
     flex-flow: row wrap;
-    width: 1160px;
+    width: 1170px;
     height: 100%;
 }
 .body-4-child {
@@ -296,7 +297,7 @@ body {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    width: 1160px;
+    width: 1170px;
     height: 100%;
 }
 .body-5-right {
@@ -453,7 +454,7 @@ body {
     width: 100%;
     height: 995px;
     background-color:#171321 ;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     /* position: relative; */
 }
 .body-6-div {
@@ -628,19 +629,20 @@ body {
     align-items: center;
     width: 100%;
     height: 580px;
+    margin-bottom: 160px;
 }
 .body-7-div {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    width: 1160px;
+    width: 1170px;
     height: 100%;
 }
 .body-7-head {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    width: 1160px;
+    width: 1170px;
     height: 115px;
     position: relative;
 }
@@ -816,7 +818,7 @@ body {
     flex-flow: column wrap;
     /* justify-content: space-between; */
     width: 90%;
-    height: 65%;
+    height: 63%;
     padding: 40px 20px 20px 50px;
     border-radius: 10px 10px 30px 10px;
     background-color:#f6f3fe;
@@ -842,7 +844,492 @@ body {
 .body-7-img > img {
     width: 160px;
     height: 160px;
-    bottom: 45px;
+    bottom: 50px;
     right: -60px;
     position: absolute;
+}
+.body-8 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 820px;
+    margin-bottom: 40px;
+    /* background-image: url(https://about.gitlab.com/nuxt-images/home/bottom-gradient.png);
+    background-size: cover;
+    background-size: 200% 100%; */
+    
+}
+.body-8-div {
+    display: flex;
+    flex-flow: column wrap;
+    width: 1170px;
+    height: 100%;
+}
+.body-8-head {
+    display: flex;
+    flex-flow: row wrap;
+    width: 1170px;
+    height: 180px;
+}
+.body-8-head-left {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.body-8-head-left h3 {
+    font-size: 50px;
+    margin: 10px 0px;
+}
+.body-8-head-right {
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+    height: 100%;
+}
+.body-8-right-child-1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: end;
+    width: 50%;
+    height: 90%;
+}
+.body-8-right-child-1 h3 {
+    font-size: 65px;
+    margin: 0px 0px;
+}
+.body-8-right-child-1 p {
+    font-size: 20px;
+    margin: 0px 50px 0px 0px;
+}
+.body-8-right-child-2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: end;
+    width: 45%;
+    height: 90%;
+}
+.body-8-right-child-2 h3 {
+    font-size: 65px;
+    margin: 0px 0px;
+}
+.body-8-right-child-2 p {
+    font-size: 20px;
+    margin: 0px 20px 0px 0px;
+}
+.body-8-footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 580px;
+    margin-top: 40px;
+}
+
+.body-8-footer-left {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 41%;
+    height: 90%;
+}
+.body-8-footer-left-1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 44%;
+    padding-left: 30px;
+    background-color: white;
+    border-radius: 10px 0px 0px 0px;
+}
+.body-8-footer-left-2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 53%;
+    padding-left: 30px;
+    background-color: white;
+    border-radius: 0px 0px 0px 10px;
+}
+.body-8-footer-left-child p {
+    font-size: 20px;
+    margin: 20px 0px;
+    max-width: 400px;
+}
+.body-8-left-2 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+.body-8-footer-left-1 .body-8-left-2 {
+    transform: translateY(-10px);
+}
+.body-8-left-2 a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: black;
+}
+.body-8-left-2:hover a {
+    text-decoration: underline;
+}
+.right-arrow-8-right {
+    width: 20px;
+    height: 20px;
+    transition: 0.2s linear;
+}
+.body-8-left-2:hover .right-arrow-8-right {
+    text-decoration: underline;
+    transform: translate(7px);
+}
+.body-8-footer-right {
+    display: flex;
+    flex-flow: column wrap;
+    width: 55%;
+    height: 90%;
+    padding-left: 30px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 0px;
+}
+.body-8-footer-right h3 {
+    font-size: 30px;
+    margin: 40px 0px;
+}
+.body-8-right-1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 55%;
+}
+.body-8-right-1 > img {
+    width: 95px;
+    height: 125px;
+    margin: 0px 20px;
+}
+.body-8-right-2 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    height: 50px;
+    padding-left: 30px;
+    width: 100%;
+}
+.body-8-right-2 a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: black;
+}
+.body-8-right-2:hover a {
+    text-decoration: underline;
+}
+.right-arrow-8-right {
+    width: 20px;
+    height: 20px;
+    transition: 0.2s linear;
+}
+.body-8-right-2:hover .right-arrow-8-right {
+    text-decoration: underline;
+    transform: translate(7px);
+}
+.gradient-background-2 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 1300px;
+    filter:  contrast( 110%) brightness(110%) blur(50px);
+    z-index: -1;
+}
+.body-9 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    height: 330px;
+    position: relative;
+}
+.body-9-div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 1170px;
+    height: 100%;
+}
+.body-9-head {
+    display: flex;
+    flex-flow: row wrap;
+    width: 1170px;
+    height: 100%;
+    background-color: #171321;
+    border-radius: 10px;
+    border: 0.01px solid gray;
+}
+.body-9-end {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    z-index: -1;
+    background-color: #171321;
+    left: 0px;
+    bottom: 0px;
+}
+.body-9-left {
+    display: flex;
+    flex-flow: column wrap;
+    width: 49%;
+    height: 100%;
+    padding: 70px 0px 0px 60px ;
+    box-sizing: border-box;
+}
+#READY_TO_GET_STARTED {
+    font-size: 40px;
+    background: linear-gradient( to right, #fcb387, #e4aaab, #8157e4);
+    background-clip: text;
+    color: transparent;
+    width: 410px;
+    margin: 0px 0px 0px 0px;
+}
+.body-9-left p {
+    font-size: 23px;
+    /* font-weight: 600; */
+    margin: 15px 0px 20px 0px;
+    color: white;
+}
+.body-9-left button {
+    width: 170px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 21px;
+    transition: 0.2s linear;
+}
+.body-9-left button:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.body-9-right {
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: space-between; */
+    width: 45%;
+    height: 85%;
+}
+.body-9-child {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.body-9-child-1 {
+    margin-right: 20px;
+}
+.body-9-child > svg {
+    width: 35px;
+    height: 35px;
+    color: white;
+}
+.body-9-child > p {
+    font-size: 16px;
+    /* font-weight: 600; */
+    margin: 25px 0px;
+    max-width: 240px;
+    color: white;
+}
+.right-arrow-9-right {
+    width: 20px;
+    height: 20px;
+    transition: 0.2s linear;
+    color: white;
+    fill: currentColor;
+    transform: translateX(8px);
+}
+.body-9-child-link {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+}
+.body-9-child-link a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.body-9-child-link:hover a {
+    text-decoration: underline;
+}
+.body-9-child-link:hover .right-arrow-9-right {
+    text-decoration: underline;
+    transform: translateX(8px);
+}
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 10px;
+    width: 100%;
+    height: 990px;
+    background-color:#171321 ;
+    /* position: relative; */
+}
+.footer-div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 1170px;
+    height: 100%;
+}
+.footer-end-1 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 70%;
+}
+.footer-end-left {
+    display: flex;
+    flex-flow: row wrap;
+    width: 15%;
+    height: 100%;
+    padding: 60px 0px 0px 0px ;
+    box-sizing: border-box;
+}
+.footer-end-left span {
+    color: white;
+    font-size: 25px;
+    transform: translateY(-5px);
+}
+.footer-end-right {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 84%;
+    height: 100%;
+    padding: 50px 0px 0px 0px ;
+    box-sizing: border-box;
+}
+.end-1-child-1 {
+    width: 18%;
+}
+.end-1-child-2 {
+    width: 18%;
+}
+.end-1-child-3  {
+    width: 18%;
+}
+.end-1-child-4  {
+    width: 18%;
+}
+.end-1-child-5  {
+    width: 18%;
+}
+.footer-end-right div > h3 {
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+.footer-end-right div > ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 160px;
+    padding-left: 30px;
+}
+.footer-end-right div ul li > a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    width: auto;
+    font-size: 14px;
+    padding: 8px 0px;
+}
+.footer-end-right div ul li > a:hover {
+    text-decoration: underline;
+}
+.footer-end-2 {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    height: 23%;
+}
+.footer-end-2-head {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 26%;
+}
+.end-2-div-1 {
+    width: 17%;
+    height: 50%;
+    box-sizing: border-box;
+}
+.end-2-div-1 button {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    background-color: #171321;
+    border: none;
+}
+.end-2-div-1 svg {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+.end-2-div-1 svg:nth-child(3) {
+    fill: currentColor;
+}
+.end-2-div-1 span {
+    font-size: 16px;
+    color: white;
+}
+.end-2-div-2 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 12%;
+    height: 60%;
+    margin-bottom: 20px;
+}
+.end-2-div-2 > svg {
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+.footer-end-2-head::after {
+    content: '';
+    width: 1170px;
+    height: 1px;
+    background-color: white;
+}
+.footer-end-2-end > p {
+    color: white;
+}
+.footer-end-2-end > p:nth-child(1) {
+    margin-top: 28px;
+}
+.footer-end-2-end > a {
+    color: white;
+    margin-right: 30px;
 }
