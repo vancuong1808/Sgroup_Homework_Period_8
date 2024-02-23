@@ -1188,6 +1188,11 @@ body {
     text-decoration: underline;
     transform: translate(7px);
 }
+.body-8-right-div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
 .body-8-footer-right {
     display: flex;
     flex-flow: column wrap;
@@ -1234,7 +1239,7 @@ body {
 }
 .right-arrow-8-right {
     width: 20px;
-    height: 20px;
+    height: 16px;
     transition: 0.2s linear;
 }
 .body-8-right-2:hover .right-arrow-8-right {
